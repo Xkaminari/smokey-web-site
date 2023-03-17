@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="public/assets/burger.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./css/locomotive-scroll.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/0b88fa2e74.js" crossorigin="anonymous"></script>
+    <title>Smokey Burgers</title>
+</head>
+<body>
+    <div class="wrapper" data-scroll-container>
+        <div class="loader">
+            <div class="loader_background"></div>
+        </div>
+        <header>
+            <img class='logo' src="./public/assets/LOGO.webp" alt="Smokey burgers logo" />
+            <nav>
+                <label for="check" class="navBtn">
+                    <input type="checkbox" id="check"/> 
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav-list">
+                    <li><p class="nav-link nav-link-home">Accueil</p></li>
+                    <li><p class="nav-link nav-link-menu">Menu</p></li>
+                    <li><p class="nav-link nav-link-address">Address</p></li>
+                    <li><p class="nav-link nav-link-contact">Contact</p></li>
+                </ul>
+                <ul class="nav-list-desktop">
+                    <li><p class="nav-link nav-link-home" id="nav_link_home">Accueil</p></li>
+                    <li><p class="nav-link nav-link-menu" id="nav_link_menu">Menu</p></li>
+                    <li><p class="nav-link nav-link-address" id="nav_link_address">Address</p></li>
+                    <li><p class="nav-link nav-link-contact" id="nav_link_contact">Contact</p></li>
+                </ul>
+            </nav>
+            <img data-scroll data-scroll-speed="2" class='figure figure1' src="./public/assets/figure1.webp" alt="decoratif figure" />
+        </header>
+        <main>
+            <section class='accuiel' id="accuiel">
+                <img class='burger_background' src="./public/assets/burgerBgBurger.webp" alt="burger image " />
+                <div class='bottom_accuiel_section'>
+                    <h2 class='slogan first-title'>
+                        <div><p class="title_element">MORE THAN</p></div>
+                        <div><p class="title_element">JUST A </p></div>
+                        <div><p class="title_element">BURGER</p></div>
+                    </h2>
+                    <div class="accuiel_btn_container">
+                        <button class='btn_model voire_menu'>VOIR LE MENU</button>
+                    </div>
+                </div>
+                <img data-scroll data-scroll-speed="2" class='figure figure2' src="./public/assets/figure2.webp" alt="decoratif figure" />
+                <img data-scroll data-scroll-speed="2" class="figure figure3" src="./public/assets/figure3.webp" alt="decoratif figure">
+            </section>
+            <section class="menu" id="menu">
+                    <div class="tuto_menu">
+                        <div>
+                            <img src="public/assets/tapScreen.png" alt="">
+                            <p>Tap here</p>
+                        </div>
+                    </div>
+                    <div class="wrapper_carousel">
+                        <div class="carousel">
+                            <div class="slide1">
+                                <img class="menu-table beef-burgers" src="./public/assets/BeefBurgers.webp" alt="Smokey burgers's Beef Burgers">
+                            </div>
+                            <div class="slide2">
+                                <img class="menu-table multi-tab chiken-burgers" src="./public/assets/ChikenBurgers.webp" alt="Smokey burgers's Chiken Burgers">
+                                <img class="menu-table multi-tab végétarien-burgers" src="./public/assets/VégétarienBurgers.webp" alt="Smokey burgers's Végétarien Burgers">
+                                <img class="menu-table fish-burgers" src="./public/assets/FishBurgers.webp" alt="Smokey burgers's Fish Burgers">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="descktop_menu">
+                        <img class="descktop_beef_burgers" src="./public/assets/BeefBurgers.webp" alt="Smokey burgers's Beef Burgers">
+                        <img class="descktop_chiken_burgers" src="./public/assets/ChikenBurgers.webp" alt="Smokey burgers's Chiken Burgers">
+                        <img class="descktop_végétarien_burgers" src="./public/assets/VégétarienBurgers.webp" alt="Smokey burgers's Végétarien Burgers">
+                        <img class="descktop_fish_burgers" src="./public/assets/FishBurgers.webp" alt="Smokey burgers's Fish Burgers">
+                    </div>
+                <a class='btn_model order' href="https://glovoapp.com/ma/fr/casablanca/smoky-burgers/">COMMANDER</a>
+            </section>
+            <section class="address" id="address">
+                <img data-scroll data-scroll-speed="2" class="figure figure4" src="./public/assets/figure4.webp" alt="decoratif figure">
+                <img class="separation" src="./public/assets/figure5.webp" alt="decoratif figure">
+                <div class="address-contant">
+                    <h2 class='slogan title-section3'>NOUS <br /> SOMMES ICI !</h2>
+                    <div class="carte-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.1962888008593!2d-7.651759984488031!3d33.60021114886209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d397a4e97d7f%3A0xdb5532fbf4b6878e!2sSmoky%20Burgers!5e0!3m2!1sfr!2sma!4v1678200087790!5m2!1sfr!2sma" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <a class='btn_model itineraires' href="https://www.google.com/maps/dir//Smoky+Burgers,+18A+avenue+tantan+Residence+jardin+du+phare,+Casablanca+20350/@33.6002733,-7.6845907,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0xda7d397a4e97d7f:0xdb5532fbf4b6878e!2m2!1d-7.6495713!2d33.6002067!3e0">ITINÉRAIRES</a>
+                </div>
+            </section>
+        </main>
+        <footer id="contact">
+            <div class="footer_wrapper">
+                <form class="contact-us">
+                    <h4 class='slogan footer-title'>NOUS CONTACTER</h4>
+                    <div class="form-first-row">
+                        <input class="fild name-input" type="text" placeholder="Nom">
+                        <input class="fild email-input" type="email" placeholder="Email@exemple.com">
+                    </div>
+                    <textarea class="fild textarea-inp" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button class="btn_model send" type="button">ENVOYER</button>
+                </form>
+                <div class="infos-link-copyright-section">
+                    <div class="infos-link-part">
+                        <div class="social-media-links">
+                            <a class="icone" href="https://www.instagram.com/smokyburgersmaroc/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="icone" href="https://www.tiktok.com/@smokyburgers"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                        <div class="separation-icone-infos"></div>
+                        <p class="info">numéro: 0520273808</p>
+                        <p class="info">Address: 18A avenue tantan Residence jardin du phare, Casablanca 20350</p>
+                    </div>
+                    <p class="copyright">Copyright © Smoky Burgers tous droits réservés</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html> 
